@@ -40,6 +40,7 @@
 }
 
 .gallery__image-certificate {
+  cursor: pointer;
   height: 100%;
   max-height: 160px;
   object-fit: cover;
@@ -141,6 +142,7 @@
 .about__show-more:hover {
   transition: all 0.5s;
   box-shadow: none;
+  cursor: pointer;
 }
 
 @media (max-width: 930px) {
