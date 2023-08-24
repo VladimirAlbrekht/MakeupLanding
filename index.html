@@ -1,12 +1,276 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test deploy</title>
-    <h1>Hello auto test 1</h1>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="stylesheet" href="./index.css">
+  <title>Елизавета Исупова визажист-бровист</title>
 </head>
+
 <body>
-    
+  <header class="header">
+    <div class="header__container">
+      <a href="#" class="header__logo"><img src="./images/logo.png" alt="логотип Лиза Исупова"></a>
+      <nav class="header__menu">
+        <ul class="header__links-container">
+          <li><a class="header__link" href="#section-portfolio">Портфолио</a></li>
+          <li><a class="header__link" href="#section-services">Услуги</a></li>
+          <li><a class="header__link" href="#section-about">Обо мне</a></li>
+          <li><a class="header__link" href="#footer">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__button">
+        <span class="header__line"></span>
+        <span class="header__line"></span>
+        <span class="header__line"></span>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <main class="main">
+      <section class="section promo">
+        <div class="promo__container">
+          <div class="promo__content">
+            <h1 class="promo__title">Елизавета Исупова</h1>
+            <h2 class="promo__subtitle">визажист-бровист</h2>
+            <a class="promo__button" href="#footer">Связаться</a>
+          </div>
+          <div class="promo__pluses">
+            <div class="promo__card">
+              <img class="promo__card-image" src="./images/promo.jpg" alt="">
+              <p class="promo__card-info">Эффектный макияж всего за один час!</p>
+              <p class="promo__card-info">Я каждый год прохожу различные курсы повышения квалификациии</p>
+              <p class="promo__card-info">Я использую только качественную косметику, которая позволит Вам
+                чувствовать себя уверенно в любой ситуации.</p>
+              <p class="promo__card-info">Если у Вас нет времени, чтобы приехать в мой салон, то подойдет
+                услуга макияж с выездом</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-portfolio" class="section gallery">
+        <h3 class="title">Галлерея</h3>
+        <div class="gallery-wrapper">
+          <img class='gallery__image' src="./images/portfolio-1.jpeg" alt="фото девушки с ярким макияжем в Иркутске">
+          <img class='gallery__image big' src="./images/portfolio-2.jpeg"
+            alt="лицо девушки с красивым макияжем в Иркутске">
+          <img class="gallery__image small" src="./images/portfolio-3.jpeg"
+            alt="фото девушки со стильным макияжем в Иркутске">
+          <img class="gallery__image tall" src="./images/portfolio-4.jpeg"
+            alt="фото девушки с бронзовым макияжем в Иркутске">
+          <img class="gallery__image big" src="./images/portfolio-5.jpeg"
+            alt="фото девушки с ярко-голубым макияжем в Иркутске">
+          <img class="gallery__image  tall" src="./images/portfolio-6.jpeg"
+            alt="фото девушки с золотым макияжем в Иркутске">
+          <img class="gallery__image big" src="./images/portfolio-7.jpeg"
+            alt="селфи девушки с коричневым стильным макияжем в Иркутске">
+          <img class='gallery__image tall' src="./images/portfolio-8.jpeg"
+            alt="фото девушки с коричневым стильным макияжем в Иркутске">
+          <img class='gallery__image small' src="./images/portfolio-9.jpeg"
+            alt="фото лица девушки в профиль с красивым макияжем в Иркутске">
+          <img class="gallery__image tall" src="./images/portfolio-10.jpeg"
+            alt="фото красивой азиатской девушки с ярким макияжем в Иркутске">
+          <img class="gallery__image  small" src="./images/portfolio-11.jpeg"
+            alt="фото блондинки с красивым макияжем в Иркутске">
+        </div>
+      </section>
+      <section id="section-services" class=" section services">
+        <div class="services__wrap">
+          <h3 class="title">Предлагаемые услуги:</h3>
+          <ul class="services__list">
+            <li class="services__item">
+              <div class="services__item-name">Макияж (вечерний, дневной)</div> <span
+                class="services__item-border"></span>
+              <div class="services__item-price">1300 ₽</div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-name">Экспресс макияж (только тон, коррекция, тушь, помада)</div> <span
+                class="services__item-border"></span>
+              <div class="services__item-price">900 ₽</div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-name">Полный образ (макияж и укладка)</div>
+              <div class="services__item-price">2000 ₽</div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-name">Оформление и окрашивание бровей</div>
+              <div class="services__item-price">700 ₽</div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-name">Долговременная укладка бровей с оформлением и окрашиванием</div>
+              <div class="services__item-price">1000 ₽</div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-name">Наклеить реснички (пучки)</div>
+              <div class="services__item-price">+200 ₽</div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-name">Окрашивание ресниц</div>
+              <div class="services__item-price">200 ₽</div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-name">Выезд на дом(в зависимости от района)</div>
+              <div class="services__item-price">500-700 ₽</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="section-about" class="section gallery about__gallery">
+        <h3 class="title">Сертификаты</h3>
+        <div class="about__container">
+          <div class="about__timeline">
+            <div class="about__timeline-item">
+              <div class="about__timeline-date">2023</div>
+              <div class="about__timeline-content">
+                <p class="about__timeline-title">Визажист на конкурсе "Мисс и Мистер БГУ-2023"</p>
+              </div>
+            </div>
+            <div class="about__timeline-item">
+              <div class="about__timeline-date">2023</div>
+              <div class="about__timeline-content">
+                <p class="about__timeline-title">Визажист и спонсор на отборочном туре конкурса дизайнеров FASHION битва
+                  в
+                  Иркутске 2023</p>
+              </div>
+            </div>
+
+            <div class="about__timeline-item">
+              <div class="about__timeline-date">2022</div>
+              <div class="about__timeline-content">
+                <p class="about__timeline-title">Курс визажиста от Бутаковой Дарьи</p>
+              </div>
+            </div>
+            <div class="about__timeline-item">
+              <div class="about__timeline-date">2021</div>
+              <div class="about__timeline-content">
+                <p class="about__timeline-title">Курс «Тренды макияжа» (Визажист Елена Санько)</p>
+              </div>
+            </div>
+            <div class="about__timeline-item">
+              <div class="about__timeline-date">2021</div>
+              <div class="about__timeline-content">
+                <p class="about__timeline-title">«Повышение квалификации для работающих бровистов», «Долговременная
+                  укладка бровей» (BBbrow)</p>
+              </div>
+            </div>
+            <div class="about__timeline-item year year_hidden">
+              <div class="about__timeline-date ">Ранее</div>
+              <div class="about__timeline-content">
+                <p class="about__timeline-title">«Бровист. Базовый уровень» (Top line)</p>
+                <p class="about__timeline-title">Интенсив «Быстрые прически» (Школа плетения кос Ксении Сысоевой)</p>
+                <p class="about__timeline-title">Занятие 8 места в номинации "Общественное мнение" и 9 места в номинации
+                  "Профессиональное признание" в категории "визажист" в рейтинге Profiles (2018)</p>
+                <p class="about__timeline-title">Эксперт красоты в конкурсе красоты "Крылья весны 2018 </p>
+                <p class="about__timeline-title">Член жюри на творческом конкурсе красоты "Miss Baikal 2018"</p>
+                <p class="about__timeline-title">«Визажист-стилист» (Школа Красоты)</p>
+                <p class="about__timeline-title">«Современные техники макияжа» (Школа Красоты)</p>
+              </div>
+            </div>
+            <button class="about__show-more">Смотреть далее</button>
+          </div>
+          <div class="gallery-wrapper about__gallery-wrapper">
+            <img class="gallery__image-certificate" src="./images/certificates/certificate-1.JPG"
+              alt="свидетельство курса визажиста-стилиста Лизы Исуповой">
+            <img class="gallery__image-certificate" src="./images/certificates/certificate-2.JPG"
+              alt="сертификат в номинации профессиональное признание Лизы Исуповой ">
+            <img class="gallery__image-certificate" src="./images/certificates/certificate-3.JPG"
+              alt="сертификат курса мастера-бровиста Лизы Исуповой">
+            <img class="gallery__image-certificate" src="./images/certificates/certificate-4.JPG"
+              alt="сертификат прохождения мастер-класса по макияжу Лизы Исуповой">
+            <img class="gallery__image-certificate" src="./images/certificates/certificate-5.JPG"
+              alt="сертификат интенсив курса быстрые прически Лизы Исуповой">
+            <img class="gallery__image-certificate" src="./images/certificates/certificate-6.JPG"
+              alt="сертификат повышения квалификации для работающих бровистов Лизы Исуповой">
+            <img class="gallery__image-certificate" src="./images/certificates/certificate-7.JPG"
+              alt="сертификат курса долговременная укладка и ламинирование бровей Лизы Исуповой">
+            <img class="gallery__image-certificate" src="./images/certificates/certificate-8.JPG"
+              alt="благодарность партнеру ИГУ Лизе Исуповой за организацию мероприятия InDiamond">
+            <img class="gallery__image-certificate" src="./images/certificates/certificate-9.JPG"
+              alt="сертификат курса тренды макияжа Лизы Исуповой">
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+    <footer id="footer" class="section footer">
+      <div class="footer__faq">
+        <div class="footer__faq-container">
+          <h2 class="footer__faq-title">Часто задаваемые вопросы</h2>
+          <div class="footer__faq-item">
+            <h3 class="footer__faq-question">Каким образом я могу связаться с вами?</h3>
+            <div class="footer__faq-answer">
+              <p>Вы можете связаться с мной через любой удобный для Вас мессенджер, а также по телефону указанному в
+                разделе "Контакты".</p>
+            </div>
+          </div>
+          <div class="footer__faq-item">
+            <h3 class="footer__faq-question">Сколько держится макияж?</h3>
+            <div class="footer__faq-answer">
+              <p>Макияж держится до его смывания.</p>
+            </div>
+          </div>
+          <div class="footer__faq-item">
+            <h3 class="footer__faq-question">Можно ли сделать макияж с выездом?</h3>
+            <div class="footer__faq-answer">
+              <p>Да, это возможно. Стоимость выезда будет зависеть от района г.Иркутска. Более подробно Вы можете
+                ознакомиться с ценами в разделе "Услуги".</p>
+            </div>
+          </div>
+          <div class="footer__faq-item">
+            <h3 class="footer__faq-question">Какую касметику вы используете?</h3>
+            <div class="footer__faq-answer">
+              <p>Использую только качественную и проверенную косметику из разных сегментов.</p>
+            </div>
+          </div>
+          <div class="footer__faq-item">
+            <h3 class="footer__faq-question">Делаете ли вы прически?</h3>
+            <div class="footer__faq-answer">
+              <p>Да, делаю быстрые укладки (локоны, пучки), но только как дополнение к макияжу.</p>
+            </div>
+          </div>
+        </div>
+        <iframe class="footer__location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.5013956538637!2d104.2579579771244!3d52.25243955600381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5da8234c8b0f2121%3A0x85ed82cc729744b0!2sUlitsa%20Yuriya%20Tena%2C%2026%2C%20Irkutsk%2C%20Irkutskaya%20oblast&#39;%2C%20Russia%2C%20664033!5e0!3m2!1sen!2s!4v1683427767540!5m2!1sen!2s"
+          height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="footer__contacts-container">
+        <nav class="footer__nav">
+          <ul class="footer__contacts">
+            <li class="footer__contact">г.Иркутск, ул. Юрия Тена, 26/3</li>
+            <li class="footer__contact footer__contact_phone"><a href="tel:+8-914-919-49-15">+8(914)-919-49-15</a></li>
+          </ul>
+        </nav>
+        <div class="footer__links">
+          <a href="https://instagram.com/liza_isu_mua?igshid=YmMyMTA2M2Y="
+            class="footer__link footer__link_instagram"><img src="./images/icons/icon-instagram.png"
+              alt="ссылка на instagram"></a>
+          <a href="https://vk.com/liza_isu_mua" class="footer__link footer__link_vkontact"><img
+              src="./images/icons/icon-vk.png" alt="ссылка на vkontact"></a>
+          <a href="https://wa.me/79149194915" class="footer__link footer__link_whatsapp"><img
+              src="./images/icons/icon-whatsapp.png" alt="ссылка на whatsapp"></a>
+        </div>
+      </div>
+    </footer>
+    <div class="scroll-to-top">
+      <div class="arrow-up"></div>
+    </div>
+    <div class="contact-me">
+      <a class="contact-me__link" href="tel:+8-914-919-49-15">+8(914)-919-49-15</a>
+    </div>
+  </div>
+  <div class="popup">
+    <div class="popup-content">
+      <img class="popup-image" src="link" alt="красивый макияж в иркутске фото в большом разрешении">
+      <button class="popup-close">&#x2715;</button>
+    </div>
+  </div>
+  <script src="./index.js"></script>
 </body>
 </html>
